@@ -1,0 +1,113 @@
+html {
+	background-color:#6495ed;
+}
+body {
+	background-color:white;
+	color:#000000;
+	margin:15px 15px;
+	padding:10px;
+	text-align:center;
+}
+.dentaku {
+	width:16%;
+}
+.neko {
+	margin-top:40px;
+	width:20%;
+}
+
+table {
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+td, th {
+	font-size:18px;
+	padding:8px 3px;
+	font-family:"Meiryo","メイリオ";
+}
+th {
+	text-align:right;
+}
+td{
+	text-align:center;
+}
+hr {
+width: 55%;
+}
+h1 {
+	color:#6495ed;
+	font-family:"Yu Gothic";
+	font-size:38px;
+}
+h2 {
+	color:#6495ed;
+	font-family:"Yu Gothic";
+	font-size:22px;
+}
+button{
+	/*ブラウザ特有のスタイルを無効に*/
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+
+	/*整える*/
+	margin:3em o; /*前後の隙間*/
+	padding:0.6em 1em; /*塗りの余白*/
+	font-size: 1em;
+	background-color:#808080;
+	color:#fff;
+	border-radius:3px; /*角のまるみ*/
+	border:0; /*枠線を消す*/
+	transition: 0.3s; /*ホバーの変化を滑らかに*/
+}
+.botton1 {
+	margin-right:30px;
+}
+.button1:hover {
+	transition:background-color:1.0s;
+	background-color:#6495ed;
+}
+.button2:hover{
+	transition:background-color:1.0s;
+	background-color:#c9c9c9;
+}
+.memo {
+	font-size:16px;
+	padding:8px 10px;
+	font-family:"Meiryo","メイリオ";
+}
+.footer{
+	font-size:12px;
+	padding:5px 10px;
+	height:40px;
+	font-family:"Meiryo","メイリオ";
+}
+.input {
+	font-family:"Meiryo","メイリオ";
+}
+.result {
+	width:50%;
+	margin:0 auto;
+	padding:1em 1em;
+	font-family:"Meiryo","メイリオ";
+	font-size:18px;
+	color:#000000;
+	border:5px solid #6495ed;
+	background-color:#ffffff;
+	border-radius:12px; /*角のまるみ*/
+}
+.result span {
+	background-color:#f2e933;
+}
+.memo-origin {
+	font-size:15px;
+	font-family:"Meiryo","メイリオ";
+}
+.memo-out {
+	color:#2266e6;
+	font-family:"Yu Gothic";
+	font-size:20px;
+	padding:8px 10px;
+}
